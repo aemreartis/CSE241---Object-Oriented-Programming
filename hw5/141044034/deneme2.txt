@@ -1,0 +1,78 @@
+MOV #0,30 
+MOV #1, 23 
+MOV #2, 4
+MOV #3, 56
+MOV #4, 34
+MOV #5, 56
+MOV #6, 89
+MOV #7, 32
+MOV #8, 45
+MOV #9, 25
+MOV r4, 9
+MOV #0, r1 ; *****
+mov r1, r2 
+sub r2, #1
+jpn r2, 19
+mov #1, r3
+mov r1, #1
+mov r3, #0
+MOV #1, r1 ; *****
+mov r1, r2 
+sub r2, #2
+jpn r2, 26
+mov #2, r3
+mov r1, #2
+mov r3, #1
+MOV #2, r1 ; *****
+mov r1, r2 
+sub r2, #3
+jpn r2, 33
+mov #3, r3
+mov r1, #3
+mov r3, #2
+MOV #3, r1 ; *****
+mov r1, r2 
+sub r2, #4
+jpn r2, 40
+mov #4, r3
+mov r1, #4
+mov r3, #3
+MOV #4, r1 ; *****
+mov r1, r2 
+sub r2, #5
+jpn r2, 47
+mov #5, r3
+mov r1, #5
+mov r3, #4
+MOV #5, r1 ; *****
+mov r1, r2 
+sub r2, #6
+jpn r2, 54
+mov #6, r3
+mov r1, #6
+mov r3, #5
+MOV #6, r1 ; *****
+mov r1, r2 
+sub r2, #7
+jpn r2, 61
+mov #7, r3
+mov r1, #7
+mov r3, #6
+MOV #7, r1 ; *****
+mov r1, r2 
+sub r2, #8
+jpn r2, 68
+mov #8, r3
+mov r1, #8
+mov r3, #7
+MOV #8, r1 ; *****
+mov r1, r2 
+sub r2, #9
+jpn r2, 75
+mov #9, r3
+mov r1, #9
+mov r3, #8
+sub r4, 1 ; *****
+jmp r4, 78
+jmp 12 
+HLT

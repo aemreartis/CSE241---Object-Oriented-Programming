@@ -1,0 +1,12 @@
+MOV r1, 0 ;
+MOV r2, 10
+MOV r2, r3 
+ADD r1, r2  
+SUB r3, 1 
+JMP r3, 8 
+JMP 4
+SUB r2, 1 
+JMP r2, 11 
+JMP 3
+PRN r1 
+HLT
